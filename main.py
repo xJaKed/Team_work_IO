@@ -22,3 +22,9 @@ assert (obj_kuli(14)) == 11494.04
 assert szescian(5) == (125, 150)
 assert szescian(1) == (1, 6)
 assert szescian(10) == (1000, 600)
+
+def stozek(r, l, h):
+    pole= round(math.pi*r**2,2) + math.pi*r*l
+    objetosc= round(1/3*math.pi*r**2*h,2)
+    return(pole, objetosc)
+
